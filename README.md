@@ -16,6 +16,6 @@ https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-dock
 ## Run 
 First run the following command:
 ```
-docker-compose
+docker-compose up
 ```
 Then copy the url given by the jupyter server into a browser
