@@ -18,4 +18,4 @@ First run the following command:
 ```
 docker-compose up
 ```
-Then copy the url given by the jupyter server into a browser
+Then accesss localhost:8888 on your browser and when asked for a password use _mir_
