@@ -9,3 +9,5 @@ As the course targets hands-on practice, for (almost) each task there are two ve
 - The complete version (which includes one of the many possible implementations for the expected part)
 
 As part of their course work, every students was expected to create a similar notebook. These notebooks are gathered under the 'studentNotebooks' folder here.
+
+In addition, some tutorials by MTG researchers were also planned. Notebooks for the tutorials are located in 'tutorials_MTGresearchers' 
