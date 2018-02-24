@@ -1,8 +1,8 @@
 # Notebooks for the MIR course
 
-This folder contains the Jupyter notebooks organized in the way it is planned to be presented in the actual course.
+This folder contains the Jupyter notebooks organised in the way it is planned to be presented in the actual course.
 
-As the course targets hands-on practice, for (almost) each task there are two versions available:
+As the course targets hands-on practice, for some of the tasks there are two versions available:
 
 - A student version where some parts of the code is left for the student to fill in. These parts are marked with: "Your code starts here" .... "Your code ends here"
 
