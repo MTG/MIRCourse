@@ -14,12 +14,20 @@ https://docs.docker.com/docker-for-mac/install/
 https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce
 
 ## Running the Jupyter server 
-In terminal, cd to your local folder for this repository and run the following command:
-```
-sudo docker-compose up
-```
+In a terminal/console window, change to this directory
 
-This would install a docker image (first time, it would download the image of size ~2Gb) and provide a web link (http://0.0.0.0:8888). Clicking or copy-pasting this link to a browser, one can access ipython notebooks (Windows users: http://{YourIPaddress}:8888). The password required is mir.
+On MacOS or Windows, run:
+
+    docker-compose up
+
+On Linux, run the following (this command ensures that any files you create are owned by your own user):
+
+    JUPYTER_USER_ID=$(id -u) docker-compose up
+
+The first time you run this command it will download the required docker images (about 2GB in size).
+
+Then accesss http://localhost:8888 with your browser and when asked for a
+password use the default password ***mir***
 
 Then, you can access the notebooks of the course from the browser and run them. All data used in the notebooks are not included in this repository due to size concerns. Some of the notebooks require downloading data from Freesound and Dunya using user specific tokens (hence would require that you get a user token and use that). Please refer to notebooks "DownloadDataFrom*" for more info.
 

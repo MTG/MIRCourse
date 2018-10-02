@@ -5,4 +5,6 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - .:/home/ds/notebooks
+      - .:/notebooks
+    environment:
+      - JUPYTER_USER_ID=$JUPYTER_USER_ID
